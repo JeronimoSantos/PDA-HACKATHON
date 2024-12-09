@@ -1,0 +1,94 @@
+/* GLOBAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* STYLES BODY */
+body {
+    height: 100vh;
+    background: linear-gradient(-45deg, #1c5560, #607848,  #c0d860, #79ae92, #63da5b);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+
+/* STYLES ANIMATION */
+@keyframes bg {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* STYLES HEADER */
+.header-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #45936c, #9acc77);
+    padding: 2rem 0 1rem 0;
+}
+
+/* STYLES LOGO */
+.logo-header {
+    width: 5rem;
+    margin-left: 1.50rem;
+}
+
+/* STYLES NAV */
+.nav-links {
+    display: flex;
+    margin-right: 9rem;
+    gap: 2rem;
+    font-size: 1.50rem;
+    font-weight: 500;
+}
+
+/* STYLES LINKS */
+a i {
+    font-size: 1.50rem;
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0 10px 10px 0;
+    position: relative;
+    color: darkgreen;
+}
+
+.nav-links a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-links a:hover::after {
+    cursor: pointer;
+    width: 100%;
+}
+
+/* STYLES MAIN */
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1;
+    text-align: center;
+}
+
+.title-container {
+    padding: 2rem;
+}
+
+.main-title {
+    font-size: 3rem;
+}
