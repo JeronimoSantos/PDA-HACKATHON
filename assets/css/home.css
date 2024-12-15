@@ -15,7 +15,6 @@ body{
     flex-direction: column;
     gap: 50px;
     font-family: sans-serif;
-
 }
 
 #logo{
@@ -24,14 +23,14 @@ body{
   margin-right: 150px;
 }
 
-#nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(121, 178, 182);
-    border-radius: 8px;
+#main-section{
+  background-color: #9acc77 ;
+  padding: 25px;
+  border-radius: 8px;
+  opacity:0.5
 }
 
-il{
-    padding-right: 150px;
+#title{
+ font-size: 60px;
+ text-align: center;
 }
