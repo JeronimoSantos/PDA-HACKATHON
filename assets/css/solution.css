@@ -219,7 +219,7 @@ a i {
 }
 
 .p-style-solutions:hover {
-    cursor: pointer;
+    cursor: url("../img/cursor.png"), auto;
     transform: scale(1.05);
 }
 
