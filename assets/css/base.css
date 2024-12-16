@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url("../img/cursor.png"), auto;
 }
 
 .segoe-ui {
@@ -10,11 +11,24 @@
 
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(-45deg, #6af94e, #cfffff,  #a3fa8c, #79ae92, #63da5b);
+    background-position: center;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: bg 12s ease-in-out infinite;
+    cursor: url();
+}
+
+/* STYLES ANIMATION BODY*/
+@keyframes bg {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 50%;}
 }
 
 header {
@@ -84,7 +98,7 @@ header {
 
 #solution-btn button {
     padding: 15px 20px;
-    border: 2px solid black;
+    border: 1px solid #006400;
     background-color: transparent;
     transition: transform 0.5s ease, background-color 0.5s ease;
 }
