@@ -1,37 +1,177 @@
-*{
-    margin:0;
+/* GLOBAL STYLES */
+* {
+    margin: 0;
     padding: 0;
-    box-sizing:border-box
+    box-sizing: border-box;
 }
 
+/* VARIABLES CSS */
+:root {
+  --color-primaria: #006400;
+  --color-segundaria: #000000;
+  --color-terciaria: #21f30e;
+}
 
-body{
-  background-image: url(../img/background-home.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+/* STYLES HEADER */
+.container-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #45936c, #9acc77);
+}
+
+/* STYLES LOGO */
+#logo{
+    width: 8rem;
+    margin-left: 1.50rem;
+}
+
+/* STYLES NAV */
+.nav-links {
   display: flex;
   justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
-    font-family: sans-serif;
-
+  align-items: center;
+  gap: 2rem;
+  margin-right: 0;
+  font-size: 1.50rem;
+  font-weight: 500;
 }
 
-#logo{
-  width: 80px;
-  /* padding-right: 20px; */
-  margin-right: 150px;
+/* STYLES LINKS */
+a i {
+  font-size: 1.50rem;
 }
 
-#nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(121, 178, 182);
-    border-radius: 8px;
+.nav-links a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0 10px 10px 0;
+  position: relative;
+  color: var(--color-primaria);
 }
 
-il{
-    padding-right: 150px;
+.nav-links a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-primaria);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  cursor: url("../img/cursor.png"), auto;
+  width: 100%;
+}
+
+.container-main {
+  background-color: transparent;
+}
+
+/* STYLES TITLE CONTAINER */
+.title-container {
+  display: flex;
+  background-color: transparent;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4rem;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  color: var(--color-primaria);
+}
+
+/* STYLES TITLE MAIN */
+.title-main {
+  margin: 5rem 0;
+  padding: 3rem 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 4rem;
+  border-radius: 2rem;
+  border: 1px solid var(--color-primaria);
+  text-shadow: 1px 1px 1px var(--color-terciaria);
+  box-shadow: 1px 2px 6px var(--color-segundaria);
+}
+
+.title-main:hover {
+  color: #faab00;
+  background-image: url(../img/amazonas\ pegando\ fogo.jpg);
+}
+
+/* STYLES PARAGRAPH */
+.pg-content {
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px var(--color-terciaria);
+}
+
+/* STYLES CONTAINER DOUBTS */
+.main-doubts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* STYLES CONTENT DOUBTS */
+.main-section {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  margin: 2rem;
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom, #7acc18, #8edf20);
+  border: 1px solid var(--color-primaria);
+  text-shadow: 1px 1px 1px var(--color-terciaria);
+  box-shadow: 1px 2px 6px var(--color-segundaria);
+  border-radius: 2rem 4rem;
+  animation: up 4.5s infinite ease-in-out;
+}
+
+/* STYLES SUB TITLE */
+.sub-title {
+  font-size: 2rem;
+  color: var(--color-primaria);
+  text-shadow: 1px 1px 1px var(--color-segundaria);
+}
+
+/* STYLES PARAGRAPH DOUBTS */
+.pg-main {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2rem 4rem;
+  background-color: #92ffa6;
+  font-size: 1.50rem;
+  font-weight: 500;
+}
+
+/* STYLES ANIMATION */
+@keyframes up {
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+/* STYLES FOOTER */
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-primaria);
+  font-weight: 500;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--color-primaria);
+  background: linear-gradient(to right, #45936c, #9acc77);
 }

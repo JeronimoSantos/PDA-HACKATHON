@@ -3,177 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Jerônimo Santos Rodrigues, Larissa Elizabete da Silva Prates, Jualianne Silva da Costa Venancio, Jaiane Nunes da Silva, Eric dos Santos, Pedro de Sousa Freitas">
-    <meta name="keywords" content="hackathon, formação Full Stack, Programadores do Amanhã, squad 8, desenvolvimento web, projeto final">
-    <meta name="description" content="Projeto final do módulo 2 da formação Full Stack da Programadores do Amanhã, desenvolvido pelo squad 8 durante o módulo. Confira os detalhes desse desafio de desenvolvimento web.">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/problems.css">
+    <link rel="stylesheet" href="./assets/css/solution.css">
 
-    <title>Preservação da Biodiversidade</title>
-]
     <script src="assets/js/script.js" defer></script>
+    <title>Equipe - 8 | Home</title>
 </head>
 <body>
-    <header>
-        <div id="logo"><img src="./assets/img/Logo.png" alt="logo"></div>
-        <nav>
-            <ul class="nav-list segoe-ui">
-                <li><a href="./assets/pages/home.html">principal</a></li>
-                <li><a href="./assets/pages/about.html">sobre</a></li>
-                <li><a href="./assets/pages/problems.html">problema</a></li>
-                <li><a href="./assets/pages/solution.html">solução</a></li>
-            </ul>
+    <header class="container-header">
+        <!--LOGO IMAGE-->
+        <section id="logo">
+            <img src="./assets/img/Logo.png" alt="Uma imagem de um atomo com detalhes verde e azul, no centro o planeta Terra">
+        </section>
+    
+        <!--TAB LINKS-->
+        <nav class="nav-links">
+            <a class="" target="_self" title="Pagina Pricipal" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a class="" target="_self" title="Sobre" href="./assets/pages/about.html"><i class="fa-solid fa-user"></i>About</a>
+            <a class="" target="_self" title="Problemas" href="./assets/pages/problems.html"><i class="fa-solid fa-bomb"></i>Problems</a>
+            <a class="" target="_self" title="Solução" href="./assets/pages/solution.html"><i class="fa-solid fa-earth-americas"></i>Solution</a>
         </nav>
-        <div id="solution-btn">
-            <a href="assets/pages/solution.html"><button>Solução</button></a>
-        </div>
+    
+        <!--LINK SOLUTION-->
+        <section id="solution-btn">
+            <a target="_self" title="Solução" href="./assets/pages/solution.html"><button>Solução</button></a>
+        </section>
     </header>
-    <main>
 
-    </main>
-    <footer>
+    <!--MAIN CONTAINER-->
+    <main class="container-main">
 
-    </footer>
-</body>
-</html>
+    <!--TITLE CONTENT-->
+        <section class="title-container">
+            <h1 class="title-main" title="Os focos superam os registrados no mesmo período nos últimos dois anos e os estados do Pará, Amazonas e Mato Grosso lideram o ranking">Protegendo a Vida no Planeta:<br> A Urgência da Preservação da Biodiversidade</h1>
+            <p class="pg-content">"Preservar a biodiversidade é respeitar todos os mecanismos que favorecem a existência humana." Portes, José Aloísio.</p>
+        </section>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>About</h1>
-    <div class="container">
-       
+    <!--TITLE DOUBTS-->
+    <section class="main-doubts">
+        <section class="main-section">
+            <h2 class="sub-title">Mas o que é a biodiversidade?</h2>
+            <p class="pg-main">
+                É o conjunto de todas as formas de vida que existe num determinado ambiente<br>
+                contendo a fauna e a flora.
+            </p>
 
-        <div class="participante" id="participante1">
-                <header>                         
-                  <img src="Jaiane.png.jpeg"alt="Foto de Jaiane">                                                     
-                </header> 
-                <div class="info">
-                    <h2>Jaiane Nunes</h2>
-                    <p>Idade: <span class="idade">20</span> anos</p>
-                    <footer>
-                        <a href="https://www.linkedin.com/in/jaiane-silva-8546b9276/"target="rel="noopener noreferrer"> 
-                            <img src="linkedin foto.png"></img>
-                            <p>Linkedin</p>
-                        </a>
-                        <a href=" https://github.com/jaianenunes20/" target="_blank"rel="noopener noreferrer"> 
-                            <img src="logo github.jpeg"></img>
-                            <p>GitHub</p>
-                        </a>
-                    </footer>
-                </div>       
-                   
-                </div>
-        </div>
+            <p class="pg-main"> 
+                A biodiversidade é fundamental para a saúde do planeta, <br>
+                pois, ela contribui para a estabilidade dos ecossistemas, <br>
+                fornecendo serviços, como a purificação da água e do ar. 
+            </p> 
+        </section>
 
-        <div class="participante" id="participante2">
-         <header>
-            <div class="container">
-            <img src="foto jeronimo.jpeg" alt="Foto de Jeronimo">
-        </div>
-         </header>
-            <div class="info">
-                <h2>Jeronimo Rodrigues</h2>
-                <p>Idade: <span class="idade">20</span> anos</p>
-                <footer>
-                    <a href=" https://www.linkedin.com/in/jeronimo-s-rodrigues-dev/"target="rel="noopener noreferrer"> 
-                        <img src="linkedin foto.png"></img>
-                        <p>Linkedin</p>
-                    </a>
-                    <a href=" https://github.com/JeronimoSantos" target="_blank"rel="noopener noreferrer"> 
-                        <img src="logo github.jpeg"></img>
-                        <p>GitHub</p>
-                    </a>
-                </footer>
-            </div>
-        </div>
+        <section class="main-section">
+            <h2 class="sub-title">Por que a biodiversidade é tão importante?</h2>
+            <p class="pg-main">
+                A biodiversidade é um bem comum e essencial para a nossa sobrevivência.
+            </p>
 
-        <div class="participante" id="participante3">
-            <header>
-                <img src="foto ju.jpeg" alt="Foto de Julianne">
-            </header>
-            <div class="info">
-                <h2>Julianne Venancio</h2>
-                <p>Idade: <span class="idade">17</span> anos</p>
-                <footer>
-                    <a href=" https://www.linkedin.com/in/julianne-venancio-93b4b3318/?trk=opento_sprofile_details"target="rel="noopener noreferrer"> 
-                        <img src="linkedin foto.png"></img>
-                        <p>Linkedin</p>
-                    </a>
-                    <a href=" https://www.github.com/JuJ-Ux" target="_blank"rel="noopener noreferrer"> 
-                        <img src="logo github.jpeg"></img>
-                        <p>GitHub</p>
-                    </a>
-                </footer>
-            </div>
-        </div>
+            <p class="pg-main">
+                Cada um de nós pode fazer a diferença para garantir um 
+                futuro mais sustentável para o planeta.
+            </p>
+        </section>
 
-        <div class="participante" id="participante4">
-            <header>
-                <img src="foto Eric.jpeg" alt="Foto de Eric">
-            </header>           
-            <div class="info">
-                <h2>Eric dos Santos</h2>
-                <p>Idade: <span class="idade">18</span> anos</p>
-                <footer>
-                    <a href="https://www.linkedin.com/in/eric-sh"target="rel="noopener noreferrer"> 
-                        <img src="linkedin foto.png"></img>
-                        <p>Linkedin</p>
-                    </a>
-                    <a href="https://www.github.com/ericshantos" target="_blank"rel="noopener noreferrer"> 
-                        <img src="logo github.jpeg"></img>
-                        <p>GitHub</p>
-                    </a>
-                </footer>
-            </div>
-        </div>
+        <section class="main-section">
+            <h2 class="sub-title">Quais são os impactos da Perda de Biodiversidade na Saúde Humana?</h2>
+            <p class="pg-main">
+                A perda de biodiversidade é uma ameaça à saúde humana em diversos níveis.
+            </p>
 
-        <div class="participante" id="participante5">
-            <header>
-                <img src="Foto larissa.jpeg" alt="Foto de Larissa">
-            </header>         
-            <div class="info">
-                <h2>Larissa Prates </h2>
-                <p>Idade: <span class="idade">21</span> anos</p>
-                <footer>
-                    <a href="https://www.linkedin.com/in/larissa-elisabete-8306b9257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="rel="noopener noreferrer"> 
-                        <img src="linkedin foto.png"></img>
-                        <p>Linkedin</p>
-                    </a>
-                    <a href="https://github.com/larissa1105" target="_blank"rel="noopener noreferrer"> 
-                        <img src="logo github.jpeg"></img>
-                        <p>GitHub</p>
-                    </a>
-                </footer>
-            </div>
-        </div>
-        <div class="participante" id="participante4">
-            <header>
-                <img src="foto4.jpg" alt="Foto de Pedro">
-            </header>           
-            <div class="info">
-                <h2>Pedro Freitas</h2>
-                <p>Idade: <span class="idade">27</span> anos</p>
-                <footer>
-                    <a href=" https://www.linkedin.com/in/jeronimo-s-rodrigues-dev/"target="rel="noopener noreferrer"> 
-                        <img src="linkedin foto.png"></img>
-                        <p>Linkedin</p>
-                    </a>
-                    <a href=" https://github.com/JeronimoSantos" target="_blank"rel="noopener noreferrer"> 
-                        <img src="logo github.jpeg"></img>
-                        <p>GitHub</p>
-                    </a>
-                </footer>
-            </div>
-        </div>
+            <p class="pg-main">
+                Ao destruir os ecossistemas, estamos colocando em risco nossa própria 
+                saúde e a saúde das futuras gerações.
+            </p>
+        </section>
+    </section>
 
-    </div>
-    <script src="script.js"></script>
+<!--RODAPÉ-->
+<footer>
+    <h3>Desenvolvido com carinho <i class="fa-solid fa-heart"></i> Equipe 8</h3>
+</footer>
+</main>
 </body>
 </html>
