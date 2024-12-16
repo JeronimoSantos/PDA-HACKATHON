@@ -40,7 +40,6 @@ body {
     align-items: center;
     text-align: center;
     background: linear-gradient(to right, #45936c, #9acc77);
-    padding: 2rem 0 1rem 0;
 }
 
 /* STYLES LOGO */
@@ -84,7 +83,7 @@ a i {
 }
 
 .nav-links a:hover::after {
-    cursor: pointer;
+    cursor: url("../img/cursor.png"), auto;
     width: 100%;
 }
 
@@ -95,6 +94,7 @@ a i {
     text-align: center;
 }
 
+/* STYLES TITLE CONTAINER */
 .title-container {
     display: flex;
     flex-flow: column wrap;
@@ -294,7 +294,7 @@ path {
 path:hover {
     fill: #336666;
     stroke: var(--color-segundaria);
-    cursor: pointer;
+    cursor: url("../img/cursor.png"), auto;
     stroke-width: 0.10rem;
     transition: fill 0.4s;
 }
