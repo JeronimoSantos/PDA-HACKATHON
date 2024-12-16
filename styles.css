@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    background: linear-gradient(-45deg, #6af94e, #cfffff,  #a3fa8c, #79ae92, #63da5b);
+    background-position: center;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: bg 12s ease-in-out infinite;
+    cursor: url("../img/cursor.png"), auto;;
+
+    
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.participante {
+    flex: 1 1 calc(10% - 10px); /* Ajusta a largura de cada participante */
+    max-width: 200px; 
+    background: transparent;
+   
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid green;
+    
+}
+
+.info {
+    line-height: 1.6;
+}
+
+.info h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.info p {
+    margin: 2px 0;
+}
+
+.idade {
+    font-weight: bold;
+    color: #222;
+}
+
+footer img {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+footer{
+    display: flex;
+    justify-content: center; 
+}
+footer a {
+    margin: 5px;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro do contêiner */
+    background-color: transparent;
+    
+}
