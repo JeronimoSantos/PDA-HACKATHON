@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #006400;
 }
 
 /* VARIABLES CSS */
@@ -41,8 +42,9 @@
 }
 
 /* STYLES LINKS */
-a i {
+.nav-links a i {
   font-size: 1.50rem;
+  color: var(--color-primaria);
 }
 
 .nav-links a {

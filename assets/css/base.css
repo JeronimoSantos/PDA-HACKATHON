@@ -21,7 +21,7 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
     animation: bg 12s ease-in-out infinite;
-    cursor: url();
+
 }
 
 /* STYLES ANIMATION BODY*/
@@ -50,6 +50,7 @@ header {
     left: 50px;
     border-radius: 50%;
     padding: 5px;
+    width: 8rem;
 }
 
 #logo img {
@@ -64,6 +65,8 @@ header {
 .nav-list {
     position: relative;
     display: inline-flex;
+    font-size: 1.25rem;
+    font-weight: 500;
     list-style-type: none;
     text-decoration: none;
     gap: 50px;
@@ -71,7 +74,7 @@ header {
 
 .nav-list > li > a {
     position: relative;
-    color: black;
+    color: #3d3d34;
     text-decoration: none;
     padding: 0 0 10px 0;
     font-weight: 450;
@@ -83,7 +86,7 @@ header {
     width: 0%;
     bottom: 0;
     height: 2px;
-    background-color: black;
+    background-color: #3d3d34;
     transition: width 0.25s ease;
 }
 

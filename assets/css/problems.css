@@ -1,3 +1,14 @@
+.header-container {
+    text-align: center;
+    background: linear-gradient(to right, #5d5c49, #d3d5b0);
+}
+
+a i {
+    font-size: 1.50rem;
+    margin-right: 1rem;
+    color: #5d5c49;
+}
+
 main {
     position: relative;
     display: flex;
@@ -172,15 +183,15 @@ main {
 }
 
 #one-subject {
-    background-image: url('../imgs/one-subject.avif');
+    background-image: url('../img/one-subject.avif');
 }
 
 #two-subject {
-    background-image: url('../imgs/two-subject.png')
+    background-image: url('../img/two-subject.png')
 }
 
 #three-subject {
-    background-image: url('../imgs/three-subject.jpg');
+    background-image: url('../img/three-subject.jpg');
 }
 
 #problem-description {
@@ -201,4 +212,17 @@ main {
     line-height: 35px;
     gap: 10px;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3d3d34;
+    font-weight: 500;
+    padding: 2rem;
+    border-top: 1px solid #3d3d34;
+    background: linear-gradient(to right, #5d5c49, #d3d5b0);
 }

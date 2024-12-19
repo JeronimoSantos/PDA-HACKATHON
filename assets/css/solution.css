@@ -22,7 +22,6 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
     animation: bg 12s ease-in-out infinite;
-    cursor: url();
 }
 
 /* STYLES ANIMATION BODY*/
@@ -44,7 +43,7 @@ body {
 
 /* STYLES LOGO */
 .logo-header {
-    width: 5rem;
+    width: 6rem;
     margin-left: 1.50rem;
 }
 
